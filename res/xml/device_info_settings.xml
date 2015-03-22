@@ -136,6 +136,12 @@
                 android:title="@string/mod_version"
                 android:summary="@string/mod_version_default" />
 
+        <!-- Device CXR version -->
+        <Preference android:key="cxr_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/cxr_version"
+               android:summary="@string/cxr_version_default" />
+
         <!-- Device firmware version -->
         <Preference android:key="firmware_version" 
                 style="?android:preferenceInformationStyle"
